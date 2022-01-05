@@ -118,33 +118,19 @@ To clone the repository, first, run these commands in your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/boxbilling/boxbilling
+$ git clone https://github.com/ricotritanto/niagahoster_boxbilling
 
 # Navigate to the local repository
 $ cd boxbilling
 
 # Run the app with some help from Docker
 $ make all
+
+$ docker-compose up
 ```
 
-Now, you can navigate to your web server in your browser. If you're using a PC, or directly a server without a server manager like Plesk, this address will probably be [localhost](http://localhost).
+Now, you can navigate to your web server in your browser. If you're using a PC, or directly a server without a server manager like Plesk, this address will probably be [localhost](http://localhost:8004/install/index.php).
 
-## Contributing
-🖥️ Welcome, fellow developer! 🙂
-
-First of all, thank you for your interest, and for taking your time to contribute to BoxBilling.
-
-BoxBilling is undergoing a revival and major code update. We are making steps forward day by day but there is still a lot of work to do, and we are happy to welcome new contributors. 
-
-We have a set of guidelines for those wishing to contribute to BoxBilling, and we encourage you to take a look at them here: **[contributors' guidelines](https://github.com/boxbilling/boxbilling/blob/master/CONTRIBUTING.md)**.
-
-Your [pull requests](https://github.com/boxbilling/boxbilling/pulls) will be highly welcomed. If you're looking for something to start with, you can check the [open issues](https://github.com/boxbilling/boxbilling/issues) on our GitHub repository.
-
-**Got questions? Found a bug? Ideas for improvements?**
-
-Don't hesitate to create an [issue](https://github.com/boxbilling/boxbilling/issues), or join us on [Slack](https://boxbilling.org/slack) to say hi.
-
-⭐ Not a developer? Feel free to help by starring the repository. It helps us catch the attention of new developers who'd like to contribute. 
 
 ## Licensing
 
