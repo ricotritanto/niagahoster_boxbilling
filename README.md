@@ -80,6 +80,17 @@ environment:
 ```
 And hange it according to the settings in your docker. For port nginx and database, I set on port 8004:80 and port for RDP port 3312:3306.
 
+Then create a new conenction for <b>DB</b> (i use dbeaver), setting connection :
+
+```bash
+Server host : localhost
+Port : 3312
+Database : (empty)
+Username : root
+Password : root
+
+```
+
 Next step :
 
 ```bash
