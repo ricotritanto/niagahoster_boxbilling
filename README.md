@@ -99,8 +99,13 @@ $ make all
 
 $ docker-compose up
 ```
-
 Now, you can navigate to your web server in your browser. If you're using a PC, or directly a server without a server manager like Plesk, this address will probably be [localhost](http://localhost:8004/install/index.php).
+
+
+## Next - installation BoxBilling on browser
+Before installation step, change /var/www/public/bb-config.php to readonly (CHMOD 644), and remove all column on database boxbilling.
+
+Then open <a href="http://localhost:8004/install/index.php">http://localhost:8004/install/index.php</a>, follow instructions process installation.
 
 
 ## Licensing
